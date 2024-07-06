@@ -163,8 +163,8 @@ img {
 }
 
 .about {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .about-container,
@@ -182,8 +182,8 @@ img {
 
 .team {
     background-color: #f4f4fd;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .about-title,
@@ -222,6 +222,11 @@ img {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.team-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-img,
 .portfolio-img {
     margin-bottom: 32px;
@@ -237,6 +242,7 @@ img {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .about-text,
@@ -267,6 +273,10 @@ img {
 .portfolio-item {
     width: calc((100% - 24px * 2) / 3);
 }
+.portfolio-card {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 
 .footer {
     background-color: #2e2f42;
@@ -286,6 +296,7 @@ img {
 .footer-logo {
     margin-bottom: 16px;
     display: block;
+    display: inline-block;
 }
 
 .footer-textcolor {
