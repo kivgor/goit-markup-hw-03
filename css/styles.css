@@ -230,21 +230,20 @@ img {
 }
 
 .team-img,
-.portfolio-img {
-    margin-bottom: 32px;
+.portfolio-img {    
 }
-
+.team-subtitle{
+text-align: center
+}
 .about-subtitle,
 .team-subtitle,
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
+    letter-spacing: 0.02em;    
     color: #2e2f42;
-    margin-bottom: 8px;
-    text-align: center;
+    margin-bottom: 8px;    
 }
 
 .about-text,
