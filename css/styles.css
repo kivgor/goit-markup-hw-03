@@ -35,6 +35,25 @@ img {
     margin: 0 auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*! --------- HEADER --------- */
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -121,6 +140,8 @@ img {
     color: #404bbf;
 }
 
+/*? --------- Section HERO --------- */
+
 .hero {
     background-color: #2e2f42;
     padding-top: 188px;
@@ -162,14 +183,8 @@ img {
     background-color: #404bbf;
 }
 
-.about {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.about-container,
-.team-container,
-.portfolio-container {}
+/* --------- Section About --------- */
+.about {}
 
 .about-list {
     display: flex;
@@ -180,10 +195,10 @@ img {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+/* --------- Section Team --------- */
+
 .team {
     background-color: #f4f4fd;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .about-title,
@@ -196,19 +211,6 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .team-list {
@@ -259,10 +261,8 @@ img {
     padding-bottom: 32px;
 }
 
-.portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+/* --------- Section Portfolio --------- */
+.portfolio {}
 
 .portfolio-list {
     display: flex;
@@ -273,21 +273,20 @@ img {
 .portfolio-item {
     width: calc((100% - 24px * 2) / 3);
 }
+
 .portfolio-card {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
 }
 
+/* --------- Footer --------- */
 .footer {
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+.footer-container {}
 
 .footer-text {
     max-width: 264px;
